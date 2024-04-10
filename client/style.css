@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url('PressStart2P-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: "Press Start 2P";
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('Wallpaper.gif');
+  background-color: rgba(176, 170, 210, 0.8);
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  text-align: center;
+  background-color: rgba(247, 247, 247, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(176, 170, 210, 0.8);
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgba(117, 110, 161, 0.8);
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
+#emoji {
+  font-size: 30px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}

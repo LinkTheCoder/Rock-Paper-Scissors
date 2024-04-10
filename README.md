@@ -6,5 +6,5 @@
   
 > [!NOTE]
 > 
-> Discord Activities using ```Embedded App SDK```.
+> Discord Activities using ```Embedded App SDK```
 > 
